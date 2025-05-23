@@ -14,14 +14,16 @@ It was split into training, validation, and testing sets with the following stru
 cat-dog-classifier/
 │
 ├── data/ # Organized dataset: train / val / test
-│   ├── train/
-│   ├── val/
-│   └── test/
+│ ├── train/
+│ ├── val/
+│ └── test/
 │
 ├── net.py # AlexNet model definition
 ├── split_data.py # Downloads and splits the raw Kaggle dataset
 ├── train.py # Training and validation pipeline
 ├── requirements.txt # Python dependencies
+├── alexNet.jpg # Architecture reference image
+├── result_plot.jpg # Training/validation loss curves
 └── README.md # This file
 ```
 
